@@ -1,0 +1,182 @@
+.firsttext{
+    margin: 0 0 4% 5%;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;    
+}
+.headline{
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.headline-text{
+    font-size:large;
+    font-weight: 400;
+}
+
+
+.headlinebox{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+span{
+    color: orangered;
+}
+
+.orangebox{
+    padding: 3%;
+    margin-top: 4%;
+    height: 24rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bgimagesame{
+    width: 40%;
+    min-height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.third{
+    height: 100%;
+    background-image: url("../../public/images/v.jpg");
+}
+.second{
+    height: 100%;
+    background-image: url("../../public/images/FSSAI.jpg");
+}
+.first{
+    height: 100%;
+    background-image: url("../../public/images/masala.jpg");
+}
+
+.firstpic, .thirdpic{
+    padding: 3%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondpic{
+    padding: 3%;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.phone-contentbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+}
+.context-box{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+}
+.small-textbox{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.phoneimage{
+    height: 270px;
+    width: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../public/images/mobile3.png");    
+}
+.chefbox{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chefimage{
+    height: 450px;
+    width: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../public/images/Home-Chef.png");
+}
+.chefbigtext{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chef-text{
+    margin: 4%;
+    font-weight: 400;
+    font-size: 28px;
+
+}
+.chef-textheadline{
+    font-weight: 700;
+    font-size: 48px;
+}
+@media all and (max-width:700px){
+    .headlinebox{
+        width: 100%;
+    }
+    .bgimagesame{
+        width: 100%;
+    }
+    .firstpic, .secondpic, .thirdpic{
+        flex-direction: column-reverse;
+        height: 580px;
+        align-items: center;
+    }
+    .headline{
+        font-size: 28px;
+    }
+    .headline-text{
+        font-size: 18px;
+    }
+    .orangebox{
+        height: 750px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    .phone-contentbox{
+        height: 300px;
+    }
+    .context-box{
+        font-size: 30px;
+    }
+    .small-textbox{
+        font-size: 18px;
+    }
+    .chefbox{
+        height: 700px;
+        flex-direction: column;
+    }
+    .chefimage{
+        height: 350px;
+        width: 250px;
+    }
+    .chef-textheadline{
+        font-size: 28px;
+    }
+    .chef-text{
+        font-size: 18px;
+    }
+    .chefbigtext{
+        padding: 3%;
+    }
+}
+
+@media all and (max-width : 410px){
+    .phoneimage{
+        width: 310px;
+    }
+}
