@@ -25,7 +25,7 @@ function Navbar() {
     <div>
       <div className="navdiv1 shadow-lg shadow-slate-300">
         <div className=" navsideimage">
-          <img src="../public/images/logo.png" alt="logo" />
+          <img src="./images/logo.png" alt="logo" />
         </div>
         <div className={`${isNavi ? "navdivon" : "navdiv2"}`}>
           <ul className="navmiddle">
@@ -117,21 +117,21 @@ function Navbar() {
             <li className="flex justify-evenly">
               <a href="#">
                 <img
-                  src="../public/images/instalogo.png"
+                  src="./images/instalogo.png"
                   alt="instalogo"
                   className="appslogo"
                 />
               </a>
               <a href="#">
                 <img
-                  src="../public/images/fblogo.png"
+                  src="./images/fblogo.png"
                   alt="fblogo"
                   className="appslogo"
                 />
               </a>
               <a href="#">
                 <img
-                  src="../public/images/pslogo.png"
+                  src="./images/pslogo.png"
                   alt="playstorelogo"
                   className="appslogo"
                 />
