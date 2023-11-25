@@ -49,9 +49,7 @@ function Content({ prop }) {
             hygiene and your overall health
           </p>
         </div>
-        <div className="third bgimagesame">
-          {/* <img src="../images/v.jpg" alt="fssai" className="image" /> */}
-        </div>
+        <div className="third bgimagesame"></div>
       </div>
       <div className=" bg-orange-400 orangebox">
         <div className="phone-contentbox">
@@ -62,7 +60,7 @@ function Content({ prop }) {
             Order Home-cooked food on the go, with the all-new de'HoFoo app.
           </h2>
           <a href="#">
-            <img src="../images/ps.png" alt="playstore" className=" h-10" />
+            <img src="./images/ps.png" alt="playstore" className=" h-10" />
           </a>
         </div>
         <div className="phoneimage"></div>

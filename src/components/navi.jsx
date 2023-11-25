@@ -22,7 +22,7 @@ function Herobox() {
             <ul className="font-medium text-2xl">
               <li className="flex">
                 <img
-                  src="../public/images/tickimg.jpg"
+                  src="./images/tickimg.jpg"
                   alt="tick"
                   className="h-8 w-10"
                 />
@@ -30,7 +30,7 @@ function Herobox() {
               </li>
               <li className="flex ">
                 <img
-                  src="../public/images/tickimg.jpg"
+                  src="./images/tickimg.jpg"
                   alt="tick"
                   className="h-8 w-10"
                 />
@@ -38,7 +38,7 @@ function Herobox() {
               </li>
               <li className="flex ">
                 <img
-                  src="../public/images/tickimg.jpg"
+                  src="./images/tickimg.jpg"
                   alt="tick"
                   className="h-8 w-10"
                 />

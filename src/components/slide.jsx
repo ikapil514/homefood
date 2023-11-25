@@ -4,27 +4,27 @@ import "./slide.css";
 function Imageslider() {
   const slides = [
     {
-      src: "../public/images/banner1.png",
+      src: "./images/banner1.png",
       alt: "image 1",
     },
     {
-      src: "../public/images/banner2.png",
+      src: "./images/banner2.png",
       alt: "image 2",
     },
     {
-      src: "../public/images/banner3.png",
+      src: "./images/banner3.png",
       alt: "image 3",
     },
     {
-      src: "../public/images/banner4.png",
+      src: "./images/banner4.png",
       alt: "image 4",
     },
     {
-      src: "../public/images/banner5.png",
+      src: "./images/banner5.png",
       alt: "image 5",
     },
     {
-      src: "../public/images/banner6.png",
+      src: "./images/banner6.png",
       alt: "image 6",
     },
   ];
@@ -33,9 +33,9 @@ function Imageslider() {
     <div className="parentdiv">
       <div className="sliderdiv">
         {slides.map((item, idx) => {
-          return(
+          return (
             <img src={item.src} alt={item.alt} key={idx} className="allimage" />
-          )
+          );
         })}
       </div>
       <span className="flex justify-center">
@@ -49,8 +49,7 @@ function Imageslider() {
           );
         })}
       </span>
-      <div className="bigone p-24">
-      </div>
+      <div className="bigone p-24"></div>
     </div>
   );
 }
