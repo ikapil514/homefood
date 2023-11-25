@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 import "./naci.css";
 import { MenuItem, Button, Typography, Menu } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
@@ -98,7 +98,7 @@ function Navbar() {
                   horizontal: "right",
                 }}
                 transformOrigin={{
-                  vertical: "",
+                  vertical: "top",
                   horizontal: "right",
                 }}
               >
